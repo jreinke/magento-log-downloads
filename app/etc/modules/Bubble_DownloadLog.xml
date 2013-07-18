@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bubble_DownloadLog>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Adminhtml/>
+                <Mage_Downloadable/>
+            </depends>
+        </Bubble_DownloadLog>
+    </modules>
+</config>

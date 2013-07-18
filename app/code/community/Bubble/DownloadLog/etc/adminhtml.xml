@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <catalog>
+            <children>
+                <product_downloads translate="title" module="bubble_downloadlog">
+                    <title>Product Downloads</title>
+                    <sort_order>1000</sort_order>
+                    <action>adminhtml/product_download/list</action>
+                </product_downloads>
+            </children>
+        </catalog>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <catalog>
+                        <children>
+                            <product_downloads translate="title" module="bubble_downloadlog">
+                                <title>Product Downloads</title>
+                            </product_downloads>
+                        </children>
+                    </catalog>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <product_downloads translate="title" module="bubble_downloadlog">
+                                        <title>Product Downloads</title>
+                                    </product_downloads>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

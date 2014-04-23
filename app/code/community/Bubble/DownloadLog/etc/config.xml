@@ -59,4 +59,15 @@
             </adminhtml>
         </routers>
     </admin>
+    <frontend>
+        <routers>
+            <downloadable>
+                <args>
+                    <modules>
+                        <Bubble_DownloadLog before="Mage_Downloadable">Bubble_DownloadLog</Bubble_DownloadLog>
+                    </modules>
+                </args>
+            </downloadable>
+        </routers>
+    </frontend>
 </config>

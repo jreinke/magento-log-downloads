@@ -17,6 +17,12 @@ Install with [modgit](https://github.com/jreinke/modgit):
     $ modgit init
     $ modgit clone log-downloads https://github.com/jreinke/magento-log-downloads.git
 
+Install with [modman](https://github.com/colinmollenhour/modman):
+
+    $ cd /path/to/magento
+    $ modman init
+    $ modman clone https://github.com/jreinke/magento-log-downloads.git
+
 or download package manually [here](https://github.com/jreinke/magento-log-downloads/archive/master.zip) and unzip in Magento root folder.
 
 Finally:

@@ -1,0 +1,5 @@
+
+app/code/community/Bubble/DownloadLog    app/code/community/Bubble/DownloadLog
+app/etc/modules/*    app/etc/modules/
+app/locale/en_US/Bubble_DownloadLog.csv    app/locale/en_US/Bubble_DownloadLog.csv
+app/locale/fr_FR/Bubble_DownloadLog.csv    app/locale/fr_FR/Bubble_DownloadLog.csv

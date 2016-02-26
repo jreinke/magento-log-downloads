@@ -2,8 +2,8 @@
 /**
  * @category    Bubble
  * @package     Bubble_DownloadLog
- * @version     1.0.0
- * @copyright   Copyright (c) 2013 BubbleCode (http://shop.bubblecode.net)
+ * @version     1.1.0
+ * @copyright   Copyright (c) 2016 BubbleShop (https://www.bubbleshop.net)
  */
 /**
  * @var $this Mage_Eav_Model_Entity_Setup

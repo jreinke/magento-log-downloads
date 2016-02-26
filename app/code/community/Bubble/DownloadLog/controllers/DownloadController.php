@@ -2,13 +2,18 @@
 /**
  * @category    Bubble
  * @package     Bubble_DownloadLog
- * @version     1.0.0
- * @copyright   Copyright (c) 2013 BubbleCode (http://shop.bubblecode.net)
+ * @version     1.1.0
+ * @copyright   Copyright (c) 2016 BubbleShop (https://www.bubbleshop.net)
  */
 require_once 'Mage/Downloadable/controllers/DownloadController.php';
 
 class Bubble_DownloadLog_DownloadController extends Mage_Downloadable_DownloadController
 {
+    /**
+     * Download link
+     *
+     * @return $this
+     */
     public function linkAction()
     {
         $id = $this->getRequest()->getParam('id', 0);
@@ -91,6 +96,7 @@ class Bubble_DownloadLog_DownloadController extends Mage_Downloadable_DownloadCo
                 Mage::helper('downloadable')->__('An error occurred while getting the requested content. Please contact the store owner.')
             );
         }
+
         return $this->_redirect('*/customer/products');
     }
 }

@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Bubble_DownloadLog>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
         </Bubble_DownloadLog>
     </modules>
     <global>
@@ -59,4 +59,15 @@
             </adminhtml>
         </routers>
     </admin>
+    <frontend>
+        <routers>
+            <downloadable>
+                <args>
+                    <modules>
+                        <Bubble_DownloadLog before="Mage_Downloadable">Bubble_DownloadLog</Bubble_DownloadLog>
+                    </modules>
+                </args>
+            </downloadable>
+        </routers>
+    </frontend>
 </config>

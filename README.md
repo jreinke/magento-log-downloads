@@ -1,4 +1,4 @@
-### Magento module for logging products downloads.
+### Magento module to log products downloads
 
 It works for downloadable product type and will log:
 
@@ -7,9 +7,10 @@ It works for downloadable product type and will log:
 * User-Agent
 * File name and title
 * Product SKU
+* Customer Id
 * Date
 
-#### Installation instructions
+#### Installation on Magento CE 1.9.x
 
 Install with [modgit](https://github.com/jreinke/modgit):
 
@@ -24,4 +25,4 @@ Finally:
 * Clear cache
 * Logout from admin then login again to access module configuration
 
-Extension is also available at [http://shop.bubblecode.net/magento-log-downloads.html](http://shop.bubblecode.net/magento-log-downloads.html)
+Extension is also available at [https://www.bubbleshop.net/magento-log-downloads.html](https://www.bubbleshop.net/magento-log-downloads.html)
